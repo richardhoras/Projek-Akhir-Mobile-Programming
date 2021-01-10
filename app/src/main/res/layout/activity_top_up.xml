@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".TopUp">
+    <Button
+        android:id="@+id/main_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="94dp"
+        android:paddingRight="94dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMainMenu"
+        android:text="Top Up"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <TextView
+        android:id="@+id/teks_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="false"
+        android:textSize="12pt"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/teks_toping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:text="Nominal[Max 2.000.000]: "
+        android:textAllCaps="false"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/teks_toping"
+        android:layout_marginTop="140dp"/>
+</RelativeLayout>

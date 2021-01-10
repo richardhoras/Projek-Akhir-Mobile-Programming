@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".OrderComplete2">
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:text="Your Order Complete.\n\t\t\t\t\t\tThank You"
+        android:textSize="12pt"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/main_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="94dp"
+        android:paddingRight="94dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMainMenu"
+        android:text="Main Menu"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <TextView
+        android:id="@+id/teks_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thankyou"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/holo_red_dark" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teks_saldo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/holo_red_dark" />
+    <TextView
+        android:id="@+id/oreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/taro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oreo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/tango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taro"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/kit_kat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tango"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".Foods">
+    <Button
+        android:id="@+id/my_order2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMyOrder2"
+        android:text="My Order"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_red_light" />
+    <Button
+        android:id="@+id/nasi_campur_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="onClicknasiCampur"
+        android:text="Nasi Campur\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/ayam_goreng_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nasi_campur_button"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickayamGoreng"
+        android:text="Ayam Goreng\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/ayam_bakar_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nasi_campur_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="onClickayamBakar"
+        android:text="Ayam Bakar\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/ayam_rebus_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ayam_goreng_button"
+        android:layout_toRightOf="@+id/ayam_bakar_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickayamRebus"
+        android:text="Ayam Rebus\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</RelativeLayout>

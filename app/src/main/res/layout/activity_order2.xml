@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".Order2">
+    <Button
+        android:id="@+id/order_more_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="93dp"
+        android:paddingRight="93dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickOrderMore"
+        android:text="Order More"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/my_order2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMyOrder2"
+        android:text="My Order"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_red_light" />
+    <TextView
+        android:id="@+id/teks_orderan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="45dp"
+        android:textAllCaps="false"
+        android:textSize="12pt"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/teks_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="45dp"
+        android:textAllCaps="false"
+        android:textSize="12pt"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/teks_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/teks_orderan"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:text="Quantity: "
+        android:textAllCaps="false"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/teks_quantity"
+        android:layout_marginTop="105dp"/>
+</RelativeLayout>

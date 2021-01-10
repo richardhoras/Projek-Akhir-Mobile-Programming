@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".Drinks">
+    <Button
+        android:id="@+id/my_order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMyOrder"
+        android:text="My Order"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_red_light" />
+    <Button
+        android:id="@+id/air_mineral_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="onClickAirMineral"
+        android:text="Air Mineral\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/jus_apel_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/air_mineral_button"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickJusApel"
+        android:text="Jus Apel\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/jus_mangga_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/air_mineral_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="onClickJusMangga"
+        android:text="Jus Mangga\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/jus_alpukat_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jus_apel_button"
+        android:layout_toRightOf="@+id/jus_mangga_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickJusAlpukat"
+        android:text="Jus Alpukat\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</RelativeLayout>

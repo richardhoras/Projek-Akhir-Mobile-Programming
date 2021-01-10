@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".MyOrder3">
+    <Button
+        android:id="@+id/pay_now_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="97dp"
+        android:paddingRight="97dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickPayNow"
+        android:text="Pay Now"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_red_light" />
+    <TextView
+        android:id="@+id/teks_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/holo_red_dark" />
+    <TextView
+        android:id="@+id/oreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/hapus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/oreo"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="onClickHapus1"
+        android:text="Hapus" />
+    <TextView
+        android:id="@+id/taro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oreo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/hapus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/oreo"
+        android:layout_below="@+id/hapus1"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="onClickHapus2"
+        android:text="Hapus" />
+    <TextView
+        android:id="@+id/tango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taro"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/hapus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/oreo"
+        android:layout_below="@+id/hapus2"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="onClickHapus3"
+        android:text="Hapus" />
+    <TextView
+        android:id="@+id/kit_kat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tango"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="12pt"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/hapus4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/oreo"
+        android:layout_below="@+id/hapus3"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="onClickHapus4"
+        android:text="Hapus" />
+</RelativeLayout>

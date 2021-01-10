@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".TopUp">
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_menu_button">
+        <LinearLayout
+            android:id="@+id/datas"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/main_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="94dp"
+        android:paddingRight="94dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMainMenu"
+        android:text="Main Menu"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</RelativeLayout>

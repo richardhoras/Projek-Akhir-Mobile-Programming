@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/my_order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMyOrder"
+        android:text="My Order"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_red_light" />
+    <Button
+        android:id="@+id/history_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickHistory"
+        android:text="  History "
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/drinks_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
+        android:onClick="onClickDrinks"
+        android:text="Drinks"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/snacks_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/drinks_button"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickSnacks"
+        android:text="Snacks"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/foods_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drinks_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:onClick="onClickFoods"
+        android:text="Foods"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/topup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snacks_button"
+        android:layout_toRightOf="@+id/foods_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickTopUp"
+        android:text="TopUp"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</RelativeLayout>
